@@ -1,0 +1,15 @@
+#array_0 .active, #array_3 .active {
+    background-color: red;
+}
+
+#array_1 .active {
+    background-color: green;
+}
+
+#array_2 .active {
+    background-color: blue;
+}
+
+.active {
+    box-shadow: inset 0px 0px 30px #000;
+}
