@@ -1,9 +1,51 @@
+body {
+    background-color: #000000;
+}
+
+#tix {
+    display: table;
+    height: 100%;
+    width: 1240px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#cell {
+    position: absolute;
+    transform: translateY(25%);
+}
+
+#array_0, #array_1, #array_2, #array_3 {
+    float: left;
+    margin: 20px;
+}
+
+#array_0 {
+    width: 120px;
+}
+
+#array_2 {
+    width: 240px;
+}
+
+#array_1, #array_3 {
+    width: 360px;
+}
+
+#array_0 > div,#array_1 > div,#array_2 > div,#array_3 > div{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #1c1c1c;
+    float: left;
+}
+
 #array_0 .active, #array_3 .active {
     background-color: red;
 }
 
 #array_1 .active {
-    background-color: green;
+    background-color: rgb(0, 190, 0);
 }
 
 #array_2 .active {
@@ -11,5 +53,5 @@
 }
 
 .active {
-    box-shadow: inset 0px 0px 30px #000;
+    box-shadow: inset 0px 0px 50px #000;
 }
